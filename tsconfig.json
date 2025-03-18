@@ -1,0 +1,22 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "esnext",
+    "types": ["node"],
+    "target": "esnext",
+    "strict": true,
+    "importHelpers": true,
+  }
+}

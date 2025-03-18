@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+@theme {
+  /* gray */
+  --color-arcane-gray-10: #DFDFDF;
+  --color-arcane-gray-20: #F8F8F8;
+  --color-arcane-gray-30: #989898;
+  --color-arcane-gray-40: #666666;
+  --color-arcane-gray-50: #9E9E9E;
+  --color-arcane-gray-60: #818E95;
+  --color-arcane-gray-70: #808080;
+  /* red */
+  --color-arcane-red: #EB4036;
+  /* blue */
+  --color-arcane-blue: #007AFF;
+}
